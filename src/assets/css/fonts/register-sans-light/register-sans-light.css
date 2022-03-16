@@ -1,0 +1,26 @@
+/*
+Font: 		Register Sans
+Style: 		Light
+URL: 		http://www.youworkforthem.com/product.php?sku=T3503
+Foundry: 	Breaking The Norm
+Foundry: 	http://www.youworkforthem.com/designer/321/breaking-the-norm
+Copyright:	  2003 Bitstream Inc. & Astigmatic. All Rights Reserved. Designed by Brian J. Bonislawsky. http://www.astigmatic.com/
+Version: 	1.1
+Created:	September 30, 2012
+License: 	http://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'Register Sans BTN Light';
+	src: url('register-sans-btn-light.eot');
+	src: url('register-sans-btn-light.eot?#iefix') format('embedded-opentype'),
+	     url('register-sans-btn-light.woff') format('woff'),
+	     url('register-sans-btn-light.ttf') format('truetype'),
+	     url('register-sans-btn-light.svg#ywftsvg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

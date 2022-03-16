@@ -1,0 +1,68 @@
+body.extras {
+  width: span(12 narrow);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.extrasInner {
+  display: inline-block;
+  // float: left;
+  clear: left;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+
+  .col1,
+  .col2 {
+    width: span(1 of 2);
+    margin-top: 0.5em;
+    padding-left: 0em;
+
+    @include breakpoint($sm) {
+      width: span(1 of 4);
+    }
+  }
+
+  .col2 {
+    width: span(1 of 2 last);
+    @include breakpoint($sm) {
+      width: span(12 narrow);
+    }
+  }
+
+  h1 {
+    font-size: 2.2em;
+    text-align: center;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    font-size: 0.85em;
+  }
+}
+
+.portThumbs {
+  border: 2px solid $ivory;
+
+  @include shadow;
+
+  &:hover {
+    border: 2px solid $accent-red;
+
+    @include shadow;
+  }
+}

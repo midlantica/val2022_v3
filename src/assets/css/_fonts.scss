@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "witchedregular";
+  src: url("../assets/css/fonts/witched_font/witched-webfont.eot");
+  src: url("../assets/css/fonts/witched_font/witched-webfont.eot?#iefix") format("embedded-opentype"),
+    url("../assets/css/fonts/witched_font/witched-webfont.woff") format("woff"),
+    url("../assets/css/fonts/witched_font/witched-webfont.ttf") format("truetype"),
+    url("../assets/css/fonts/witched_font/witched-webfont.svg#witchedregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Register";
+  src: url("../assets/css/fonts/register-sans/register-sans.eot");
+  src: url("../assets/css/fonts/register-sans/register-sans.eot?#iefix") format("embedded-opentype"),
+    url("../assets/css/fonts/register-sans/register-sans.woff") format("woff"),
+    url("../assets/css/fonts/register-sans/register-sans.ttf") format("truetype"),
+    url("../assets/css/fonts/register-sans/register-sans.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RegisterBold";
+  src: url("../assets/css/fonts/register-sans-bold/register-sans-bold.eot");
+  src: url("../assets/css/fonts/register-sans-bold/register-sans-bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/css/fonts/register-sans-bold/register-sans-bold.woff") format("woff"),
+    url("../assets/css/fonts/register-sans-bold/register-sans-bold.ttf") format("truetype"),
+    url("../assets/css/fonts/register-sans-bold/register-sans-bold.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "RegisterLight";
+  src: url("../assets/css/fonts/register-sans-light/register-sans-light.eot");
+  src: url("../assets/css/fonts/register-sans-light/register-sans-light.eot?#iefix")
+      format("embedded-opentype"),
+    url("../assets/css/fonts/register-sans-light/register-sans-light.woff") format("woff"),
+    url("../assets/css/fonts/register-sans-light/register-sans-light.ttf") format("truetype"),
+    url("../assets/css/fonts/register-sans-light/register-sans-light.svg#ywftsvg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}

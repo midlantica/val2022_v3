@@ -1,0 +1,82 @@
+h1,
+h2,
+h3 {
+  font-family: $copy-bold;
+  color: $purple;
+  font-weight: normal;
+  letter-spacing: 0em;
+  margin: 0.1em 0 0 0;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+
+  @include breakpoint($mobile) {
+    font-size: 1.25em;
+  }
+}
+
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3 {
+  color: $white;
+}
+
+h3,
+h4,
+h5 {
+  font-family: $copy-bold;
+  color: $purple;
+  letter-spacing: 0.06em;
+  margin: 1em 0 -0.25em 0;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+}
+
+h2:first-child {
+  margin: 0 0 0.5em 0;
+  letter-spacing: 0.05em;
+}
+
+p,
+ul,
+li {
+  font-family: Register;
+  color: $grey;
+  font: 1em;
+  letter-spacing: 0.065em;
+  -webkit-font-smoothing: initial;
+  -moz-osx-font-smoothing: initial;
+  line-height: 1.4;
+  // margin: 0 0 0 0;
+
+  b {
+    color: $grey;
+  }
+
+  & a {
+    font-weight: bold;
+  }
+}
+
+[data-theme="dark"] p,
+[data-theme="dark"] ul,
+[data-theme="dark"] li {
+  color: $white;
+
+  & b {
+    color: $white;
+  }
+
+  & a {
+    color: $white;
+    font-weight: bold;
+  }
+}
+
+.valPic {
+  border-radius: 20em;
+  text-align: center;
+
+  @include breakpoint($SmMdLg) {
+    // width: 100%;
+  }
+}

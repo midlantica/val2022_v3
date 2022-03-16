@@ -1,0 +1,6 @@
+@mixin border-box-sizing($box-model: $default-box-sizing) {
+  @if type-of($box-model) == string {
+    $box-model: unquote($box-model);
+  }
+  @include prefixed-properties(css3-boxsizing, $box-sizing-support-threshold, (box-sizing: $box-model));
+}

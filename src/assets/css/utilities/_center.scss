@@ -1,0 +1,22 @@
+.centerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// OTHER CENTER METHODS
+/*
+.containerThing {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.foo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate (-50% -50%);
+}
+
+https://css-tricks.com/centering-css-complete-guide/
+*/

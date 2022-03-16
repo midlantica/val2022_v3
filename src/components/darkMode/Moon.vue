@@ -1,0 +1,3 @@
+<template>
+  <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"><circle cx="15" cy="15" r="15"/><path d="m15.446 3c.746 0 1.476.069 2.184.2-3.145 1.79-5.267 5.171-5.267 9.049 0 6.539 5.953 11.441 12.363 10.22-2.19 2.699-5.533 4.424-9.28 4.424-6.597 0-11.946-5.349-11.946-11.947 0-6.597 5.349-11.946 11.946-11.946z" fill="#d4f0ff"/></svg>
+</template>

@@ -1,0 +1,199 @@
+html {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  // background: red;
+}
+
+body {
+  background: $purple;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+body[data-theme="light"] {
+  background: $purple;
+  transition: 0.35s all ease-in-out;
+}
+
+body[data-theme="dark"] {
+  background: hsla(0deg 6% 16%/1);
+  transition: 0.35s all ease-in-out;
+}
+
+.wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: center;
+  //
+  background-repeat: repeat-y;
+  background-position: center top;
+  margin: -1px auto 0px;
+  padding: 0 0 10px 0;
+  background-image: url("../assets/img/white_back_patt.png");
+
+  @include breakpoint($SmMdLg) {
+    background: $white;
+    color: white;
+  }
+}
+
+[data-theme="dark"] .wrapper {
+  background: none !important;
+  transition: 0.35s all ease-in-out;
+}
+
+header,
+footer {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  margin-top: -4em;
+  margin-bottom: 2em;
+
+  @include breakpoint($SmMdLg) {
+    margin-top: -1.5em;
+  }
+}
+
+// MAIN
+// ##############
+main {
+  display: grid;
+  grid-template-columns: 1fr 5rem;
+  margin: auto;
+  width: 70vw;
+  max-width: 850px;
+
+  @include breakpoint($SmMdLg) {
+    width: 80vw;
+  }
+
+  @include breakpoint($SmMd) {
+    // grid-template-columns: 1fr 4rem;
+    // width: 90vw;
+  }
+
+  aside.col1 {
+    //
+
+    @include breakpoint($SmMdLg) {
+      //
+    }
+  }
+}
+
+body.home main,
+body.artists-statement main {
+  padding-left: 0rem;
+
+  @include breakpoint($SmMdLg) {
+    padding-left: 1rem;
+  }
+
+  @include breakpoint($SmMd) {
+    // padding-left: 0rem;
+  }
+}
+
+body.licensing main,
+body.wholesale main {
+  padding-left: 5rem;
+
+  @include breakpoint($SmMdLg) {
+    padding-left: 3rem;
+  }
+
+  @include breakpoint($SmMd) {
+    padding-left: 1rem;
+  }
+}
+
+body.contact {
+  //
+
+  main {
+    padding-left: 5rem;
+
+    @include breakpoint($SmMdLg) {
+      padding-left: 0rem;
+    }
+
+    @include breakpoint($SmMd) {
+      // padding-left: 0rem;
+    }
+
+    section {
+      width: 500px;
+      max-width: 600px;
+      justify-self: center;
+      align-self: center;
+
+      @include breakpoint($SmMdLg) {
+        width: 400px;
+        // max-width: 600px;
+      }
+
+      @include breakpoint($SmMd) {
+        width: 300px;
+      }
+
+      @include breakpoint($sm) {
+        width: 200px;
+      }
+    }
+  }
+}
+
+.flexxy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  @include breakpoint($SmMdLg) {
+    flex-wrap: wrap;
+  }
+
+  a {
+    border: none;
+  }
+}
+
+.valImgDiv {
+  text-align: center;
+  // display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-basis: initial;
+  margin-right: 2rem;
+  flex-grow: 1;
+  min-width: 180px;
+
+  @include breakpoint($SmMdLg) {
+    margin-bottom: 2rem;
+  }
+
+  @include breakpoint($SmMd) {
+    // padding-left: 1rem;
+  }
+}
+
+.valCopy {
+  flex-shrink: 1;
+  width: 100%;
+}

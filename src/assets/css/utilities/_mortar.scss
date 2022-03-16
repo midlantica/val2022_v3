@@ -1,0 +1,538 @@
+// REMs
+// m = margin, p = padding
+// T = top, B = bottom, L = Left, R = Right
+// H = HALF => 0.5
+// Q = QUARTER => 0.25
+//
+// [class^="mar"] {
+//   background: #9cf;
+// }
+// [class^="pad"] {
+//   background: #f96;
+// }
+// MARGIN AUTOS
+.marLAuto {
+  margin-left: auto !important;
+}
+.marRAuto {
+  margin-right: auto !important;
+}
+.marLRAuto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+// PAD AUTOS
+.padLAuto {
+  padding-left: auto !important;
+}
+.padRAuto {
+  padding-right: auto !important;
+}
+.padLRAuto {
+  padding-left: auto !important;
+  padding-right: auto !important;
+}
+/**********************************************/
+/**********************************************/
+// PAD TO
+// -> 0 REM
+.pad0 {
+  padding: 0rem !important;
+}
+.padL0 {
+  padding-left: 0rem !important;
+}
+.padR0 {
+  padding-right: 0rem !important;
+}
+.padT0 {
+  padding-top: 0rem !important;
+}
+.padB0 {
+  padding-bottom: 0rem !important;
+}
+.padLR0 {
+  padding-left: 0rem !important;
+  padding-right: 0 !important;
+}
+.padTB0 {
+  padding-top: 0rem !important;
+  padding-bottom: 0 !important;
+}
+// -> 5 REM
+.padH {
+  padding: 0.5rem !important;
+}
+.padLH {
+  padding-left: 0.5rem !important;
+}
+.padRH {
+  padding-right: 0.5rem !important;
+}
+.padTH {
+  padding-top: 0.5rem !important;
+}
+.padBH {
+  padding-bottom: 0.5rem !important;
+}
+.padLRH {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+.padTBH {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+// -> 0.25 REM
+.padQ {
+  padding: 0.25rem !important;
+}
+.padLQ {
+  padding-left: 0.25rem !important;
+}
+.padRQ {
+  padding-right: 0.25rem !important;
+}
+.padTQ {
+  padding-top: 0.25rem !important;
+}
+.padBQ {
+  padding-bottom: 0.25rem !important;
+}
+.padLRQ {
+  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
+}
+.padTBQ {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+// -> 1 REM
+.pad1 {
+  padding: 1rem !important;
+}
+.padL1 {
+  padding-left: 1rem !important;
+}
+.padR1 {
+  padding-right: 1rem !important;
+}
+.padT1 {
+  padding-top: 1rem !important;
+}
+.padB1 {
+  padding-bottom: 1rem !important;
+}
+.padLR1 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.padTB1 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+// -> 1.5 REM
+.pad1H {
+  padding: 1.5rem !important;
+}
+.padL1H {
+  padding-left: 1.5rem !important;
+}
+.padR1H {
+  padding-right: 1.5rem !important;
+}
+.padT1H {
+  padding-top: 1.5rem !important;
+}
+.padB1H {
+  padding-bottom: 1.5rem !important;
+}
+.padLR1H {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+.padTB1H {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+// -> 2 REM
+.pad2 {
+  padding: 2rem !important;
+}
+.padL2 {
+  padding-left: 2rem !important;
+}
+.padR2 {
+  padding-right: 2rem !important;
+}
+.padT2 {
+  padding-top: 2rem !important;
+}
+.padB2 {
+  padding-bottom: 2rem !important;
+}
+.padLR2 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+.padTB2 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+// -> 2.5 REM
+.pad2H {
+  padding: 2.5rem !important;
+}
+.padL2H {
+  padding-left: 2.5rem !important;
+}
+.padR2H {
+  padding-right: 2.5rem !important;
+}
+.padT2H {
+  padding-top: 2.5rem !important;
+}
+.padB2H {
+  padding-bottom: 2.5rem !important;
+}
+.padLR2H {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+.padTB2H {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+// -> 3 REM
+.pad3 {
+  padding: 3rem !important;
+}
+.padL3 {
+  padding-left: 3rem !important;
+}
+.padR3 {
+  padding-right: 3rem !important;
+}
+.padT3 {
+  padding-top: 3rem !important;
+}
+.padB3 {
+  padding-bottom: 3rem !important;
+}
+.padLR3 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.padTB3 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+/**********************************************/
+/**********************************************/
+// MARGIN
+// -> TO 0 REM
+.mar0 {
+  margin: 0rem !important;
+}
+.marL0 {
+  margin-left: 0rem !important;
+}
+.marR0 {
+  margin-right: 0rem !important;
+}
+.marT0 {
+  margin-top: 0rem !important;
+}
+.marB0 {
+  margin-bottom: 0rem !important;
+}
+.marLR0 {
+  margin-left: 0rem !important;
+  margin-right: 0rem !important;
+}
+.marTB0 {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+// -> QUARTER 0.25 REM
+.marQ {
+  margin: 0.25rem !important;
+}
+.marLQ {
+  margin-left: 0.25rem !important;
+}
+.marRQ {
+  margin-right: 0.25rem !important;
+}
+.marTQ {
+  margin-top: 0.25rem !important;
+}
+.marBQ {
+  margin-bottom: 0.25rem !important;
+}
+.marLRQ {
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
+}
+.marTBQ {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+// -> HALF 0.5 REM
+.marH {
+  margin: 0.5rem !important;
+}
+.marLH {
+  margin-left: 0.5rem !important;
+}
+.marRH {
+  margin-right: 0.5rem !important;
+}
+.marTH {
+  margin-top: 0.5rem !important;
+}
+.marBH {
+  margin-bottom: 0.5rem !important;
+}
+.marLRH {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+.marTBH {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+// -> 1 REM
+.mar1 {
+  margin: 1rem !important;
+}
+.marL1 {
+  margin-left: 1rem !important;
+}
+.marR1 {
+  margin-right: 1rem !important;
+}
+.marT1 {
+  margin-top: 1rem !important;
+}
+.marB1 {
+  margin-bottom: 1rem !important;
+}
+.marLR1 {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+.marTB1 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+// -> 1.5 REM
+.mar1H {
+  margin: 1.5rem !important;
+}
+.marL1H {
+  margin-left: 1.5rem !important;
+}
+.marR1H {
+  margin-right: 1.5rem !important;
+}
+.marT1H {
+  margin-top: 1.5rem !important;
+}
+.marB1H {
+  margin-bottom: 1.5rem !important;
+}
+.marLR1H {
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+.marTB1H {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+// -> 2 REM
+.mar2 {
+  margin: 2rem !important;
+}
+.marL2 {
+  margin-left: 2rem !important;
+}
+.marR2 {
+  margin-right: 2rem !important;
+}
+.marT2 {
+  margin-top: 2rem !important;
+}
+.marB2 {
+  margin-bottom: 2rem !important;
+}
+.marLR2 {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+.marTB2 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+// -> 2.5 REM
+.mar2H {
+  margin: 2.5rem !important;
+}
+.marL2H {
+  margin-left: 2.5rem !important;
+}
+.marR2H {
+  margin-right: 2.5rem !important;
+}
+.marT2H {
+  margin-top: 2.5rem !important;
+}
+.marB2H {
+  margin-bottom: 2.5rem !important;
+}
+.marLR2H {
+  margin-left: 2.5rem !important;
+  margin-right: 2rem !important;
+}
+.marLR2H {
+  margin-top: 2.5rem !important;
+  margin-bottom: 2rem !important;
+}
+// -> 3 REM
+.mar3 {
+  margin: 3rem !important;
+}
+.marL3 {
+  margin-left: 3rem !important;
+}
+.marR3 {
+  margin-right: 3rem !important;
+}
+.marT3 {
+  margin-top: 3rem !important;
+}
+.marB3 {
+  margin-bottom: 3rem !important;
+}
+.marLR3 {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
+.marTB3 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+/**********************************************/
+/**********************************************/
+// PAD BALANCED BY...
+// -> BY 0.25 REM
+.padLRBalQ {
+  padding-left: 0.25rem !important;
+  padding-right: 0.25rem !important;
+}
+.padTBBalQ {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+// -> BY 0.5 REM
+.padLRBalH {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+.padTBBalH {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+// -> BY 1 REM
+.padLRBal1 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+.padTBBal1 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+// -> BY 1.5 REM
+.padLRBal1H {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+.padTBBal1H {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+// -> BY 2 REM
+.padLRBal2 {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+.padTBBal2 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+// -> BY 3 REM
+.padLRBal3 {
+  padding-left: 3rem !important;
+  padding-right: 3rem !important;
+}
+.padTBBal3 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+/**********************************************/
+/**********************************************/
+// MARGIN BALANCED BY...
+// -> 0.25 REM
+.marLRBalQ {
+  margin-left: 0.25rem !important;
+  margin-right: 0.25rem !important;
+}
+.marTBBalQ {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
+}
+// -> 0.5 REM
+.marLRBalH {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+}
+.marTBBalH {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+// -> 1 REM
+.marLRBal1 {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+.marTBBal1 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+// -> 1.5 REM
+.marLRBal1H {
+  margin-left: 1.5rem !important;
+  margin-right: 1.5rem !important;
+}
+.marTBBal1H {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+// -> 2 REM
+.marLRBal2 {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+.marTBBal2 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+// -> 3 REM
+.marLRBal3 {
+  margin-left: 3rem !important;
+  margin-right: 3rem !important;
+}
+.marTBBal3 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}

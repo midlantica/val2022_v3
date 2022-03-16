@@ -1,0 +1,73 @@
+// VENDOR SASS
+@import "_colors.scss";
+@import "_mixins.scss";
+@import "utilities/__utilities_base.scss";
+@import "../node_modules/breakpoint-sass/stylesheets/_breakpoint.scss";
+// @import "./breakpointSass/_breakpoint.scss";
+
+// BREAKPOINTS
+// $xsm:   0px 320px;
+$sm: 0px 479px;
+$md: 480px 759px;
+$mdlg: 760px 944px;
+$bg: min-width 945px;
+//
+$SmMd: 0px 759px;
+$SmMdLg: 0px 944px;
+
+$mobileXMini: max-width 360px;
+$mobileMini: min-width 660px;
+$mobile: min-width 760px;
+$med-width: min-width 860px;
+
+// FONTS
+$base-font-size: 0.85em;
+$base-line-height: 1.7em;
+$header-font: witchedregular;
+$copy: Register;
+$copy-bold: RegisterBold;
+
+// ############################
+
+html,
+html a {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  font-size: 1rem;
+}
+
+audio,
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: $purple;
+  text-decoration: none;
+  border-bottom: 1px dotted $green;
+  // @include link-colors($purple, $orange, $purple, $purple, $purple);
+
+  &:hover {
+    color: $purple;
+  }
+  &:active {
+    color: $orange;
+  }
+  &:visited {
+    color: $purple;
+  }
+  &:focus {
+    color: $purple;
+  }
+}
